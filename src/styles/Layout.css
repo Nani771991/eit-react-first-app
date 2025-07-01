@@ -1,0 +1,29 @@
+
+.header-content {
+    background-color: rgb(146, 215, 192);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.header-container,
+.footer-container {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    background-color: rgb(53, 187, 143);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.header-container nav {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+}
