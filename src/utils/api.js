@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-    baseURL: "https://683e352e1cd60dca33daba70.mockapi.io/api"
+    baseURL: import.meta.env.VITE_BASE_URL
 })
 
 export const getProducts = async () => {
